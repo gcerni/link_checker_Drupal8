@@ -1,0 +1,5 @@
+link_checker.link_checker:
+  title: 'Link checker'
+  route_name: link_checker.link_checker
+  base_route: entity.user.collection
+  weight: 13

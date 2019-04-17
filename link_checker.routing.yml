@@ -1,0 +1,7 @@
+link_checker.link_checker:
+  path: '/admin/people/link-checker'
+  defaults:
+    _controller: \Drupal\km_link_checker\Controller\LinkCheckerController::linkChecker
+    _title: 'Link checker'
+  requirements:
+    _permission: 'administer content'
